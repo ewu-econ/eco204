@@ -1,5 +1,5 @@
 ---
-title: "Thanks for Visiting!"
+title: "Welcome to the Course Webpage of ECO 204"
 output: 
   html_document:
     font: "Source Sans Pro"
@@ -10,26 +10,40 @@ output:
 
 <center>
 
-![](image_file.png){width=40%}
+![Image Taken From the Book - An Introduction to Statistical Learning](image_file.png){width=40%}
 </center>
 
 <br>
 <br>
 
-Salam Everyone! We created this website for the Causality Reading Group at [East West University, Bangladesh](https://www.ewubd.edu/). We are a group of researchers and students at the Economics department interested in causal inference and its applications in various fields. Our goal is to learn, and share knowledge related to causal inference.
+Salam Everyone! Welcome to the course webpage of ECO 204 (Faculty - STH). This course is an introduction to statistical inference. Broadly the discipline of Statistics falls in two categories: Descriptive Statistics and Inferential Statistics. In this course we will focus on the latter. 
 
-Currently the plan is to read and discuss some papers on causal inference. The group is ideally open to anyone who is interested in learning about causal inference, regardless of their background or level of expertise. The only **condition as a member is that you have to read a paper for every session and then present the key ideas in front of the group members.** 
+The key idea here would be to conclude something about a population based on a sample. We will cover the following topics in this course:
 
-If you are interested to join the group then please send an email at <a name="tanvir">tanvir.hossain@ewubd.edu</a>. Also if you are in the group, then you should already have access to the Google Drive Folder, here is the  [link](https://drive.google.com/drive/folders/132IX6Tlz3p04S6dmRt8ZiysCKrJBNEh8?usp=sharing)
+1. Point and Interval Estimation of Mean and Proportion (one sample and two sample problems)
+2. Hypothesis Testing of Mean and Proportion (one sample and two sample problems)
+3. Simple and Multiple Linear Regression Model, Estimation and Testing.
+4. Basic Time Series Analysis
+5. Goodness of fit test and some non-parametric tests (e.g., sign test and rank test), if time permits!
+6. Analysis of Variance Technique
 
 <br>
 <br>
 
 <center>
 
-![](cor_caus.jpg){width=70%}
+![](image_file2.png){width=50%}
 </center>
+
+You will get the course outline in PDF soon.... 
+
 
 <br>
 
 
+
+
+
+<div style="text-align: center; padding: 10px; margin-top: 40px; border-top: 1px solid #ccc; color: gray; font-size: 0.9em;">
+  © ECO 204 Summer 2025. All rights reserved. |Site Maintained by - Shaikh Tanvir Hossain and Habiba Afroz
+</div>

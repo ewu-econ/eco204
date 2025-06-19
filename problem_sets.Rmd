@@ -1,0 +1,16 @@
+---
+  title: "Problem Sets"
+  output: 
+    html_document:
+      toc: true
+      toc_depth: 3
+      toc_float: true
+      self_contained: true
+      df_print: paged
+      mathjax: default
+  bibliography: eco204_books.bib  
+  link-citations: yes
+  linkcolor: blue
+---
+  
+Not yet ....

@@ -1,14 +1,16 @@
-name: "Causality @ EWU"
+name: "ECO204 @ EWU"
 output_dir: "."
 navbar:
-  title: "Causality @ EWU"
+  title: "ECO204 @ EWU"
   left:
     - text: "Home"
       href: index.html
-    - text: "Useful Resources"
-      href: useful_res.html
-    - text: "Sessions"
-      href: sessions.html
+    - text: "Lectures"
+      href: lectures.html
+    - text: "Problem Sets"
+      href: problem_sets.html
+    - text: "Additional Materials"
+      href: add_materials.html
 output:
   html_document:  
     self_contained: no  
