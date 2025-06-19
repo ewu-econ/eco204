@@ -1,13 +1,18 @@
-name: "my-website"
+name: "Causality @ EWU"
 output_dir: "."
 navbar:
-  title: "ECO-204 @ EWU"
+  title: "Causality @ EWU"
   left:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Useful Resources"
+      href: useful_res.html
+    - text: "Sessions"
+      href: sessions.html
 output:
   html_document:  
     self_contained: no  
     theme: cosmo
+    
+    
+    
