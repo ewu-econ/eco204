@@ -1,0 +1,7 @@
+---
+title: "Thanks for Visiting!"
+output: 
+  html_document:
+    font: "Source Sans Pro"
+---
+

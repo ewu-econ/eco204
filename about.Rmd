@@ -1,0 +1,16 @@
+---
+  title: "Sessions"
+  output: 
+    html_document:
+      toc: true
+      toc_depth: 3
+      toc_float: true
+      self_contained: true
+      df_print: paged
+      mathjax: default
+  bibliography: 204_books.bib  
+  link-citations: yes
+  linkcolor: blue
+---
+
+More about this website. kajskajsjas kaskajs 
