@@ -28,7 +28,8 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
   - Probability Distributions
   - Expectation and Variance
   - Some Important Distributions (Binomial and Normal, etc.)
-
+  - **Please Note:** The slides may get updated later, so please check back frequently.
+  - last updated: format(Sys.Date(), "%B %d, %Y")
 
 ## *Chapter 1 - Statistical Estimation*
 

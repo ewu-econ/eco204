@@ -17,34 +17,21 @@ output:
 <br>
 <br>
 
-Salam Everyone! This is course webpage of **ECO 204 (Section 7)**, current semester is **Summer 2025**.
+Salam everyone! 👋 Welcome to the ECO 204 (Section 7) course page for **Summer 2025**. We’re thrilled to have you on board.
 
-This course is an introduction to **Statistical Inference**. Broadly the discipline of Statistics falls under two categories: **Descriptive Statistics** and **Inferential Statistics**. This will focus on the latter, which is the process of drawing conclusions about a population based on a sample.
+This class is your somewhat deep dive into **Statistical Inference**—the part of statistics that lets us say smart things about a whole population **just by studying a sample**. Remember, there are two big branches of Stats: **Descriptive** (summarizing what you see) and **Inferential** (drawing broader conclusions). We’re now in the second camp. You should already have ECO 104 under your belt (Descriptive Stats + Probability). If you haven’t taken that yet, it’s better to take ECO 104 first and come back here later...
 
-The prerequisite for this course is ECO 104, which is an introduction to **Descriptive Statistics** and **Probability Theory**. It is assumed that you have already successfully completed the course, if not please drop this course and take it later. 
+Over the next few weeks we’ll explore **estimation, hypothesis testing, regression, time-series analysis, ANOVA, and some non-parametric tests**. It might sound like a lot, but once you get the ideas you’ll see how powerful—and fun—these topics are.
 
-In this course, we will learn how to use statistical methods to make inferences about a population based on sample data. We will cover various topics including **estimation, hypothesis testing, regression analysis, time series analysis, analysis of variance techniques and some non-parametric testing**.
+A quick heads-up: **PLEASE, and PLEASE again ... show up to every class.** This summer term is short, and each session builds on the previous one, so **missing even a single class can make your life very difficult later**.
 
-Thanks 
-
-
-<br>
-<br>
-
-<center>
-
-
-</center>
+We’re **Tanvir Hossain** (your instructor) and **Habiba Afroz** (your TA) from the [Economics Department at East West University](https://fbe.ewubd.edu/economics-department). Reach out anytime to us via Discord DM, Google Classroom, or office hours—if you need help or just want to talk about Statistics. Thanks again, let’s have a great term together!
 
 You will get the course outline in PDF soon.... 
-
-
-<br>
-
 
 
 
 
 <div style="text-align: center; padding: 10px; margin-top: 40px; border-top: 1px solid #ccc; color: gray; font-size: 0.9em;">
-  © ECO 204 Summer 2025. All rights reserved. |Site Maintained by - Shaikh Tanvir Hossain and Habiba Afroz
+  © ECO 204 Summer 2025. All rights reserved. | Site Maintained by - Shaikh Tanvir Hossain and Habiba Afroz
 </div>
