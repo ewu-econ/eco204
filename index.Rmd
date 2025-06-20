@@ -10,29 +10,30 @@ output:
 
 <center>
 
-![Image Taken From the Book - An Introduction to Statistical Learning](image_file.png){width=40%}
+![](image_file.png){width=30%}
+![](image_file2.png){width=35%}
 </center>
 
 <br>
 <br>
 
-Salam Everyone! Welcome to the course webpage of ECO 204 (Faculty - STH). This course is an introduction to statistical inference. Broadly the discipline of Statistics falls in two categories: Descriptive Statistics and Inferential Statistics. In this course we will focus on the latter. 
+Salam Everyone! This is course webpage of **ECO 204 (Section 7)**, current semester is **Summer 2025**.
 
-The key idea here would be to conclude something about a population based on a sample. We will cover the following topics in this course:
+This course is an introduction to **Statistical Inference**. Broadly the discipline of Statistics falls under two categories: **Descriptive Statistics** and **Inferential Statistics**. This will focus on the latter, which is the process of drawing conclusions about a population based on a sample.
 
-1. Point and Interval Estimation of Mean and Proportion (one sample and two sample problems)
-2. Hypothesis Testing of Mean and Proportion (one sample and two sample problems)
-3. Simple and Multiple Linear Regression Model, Estimation and Testing.
-4. Basic Time Series Analysis
-5. Goodness of fit test and some non-parametric tests (e.g., sign test and rank test), if time permits!
-6. Analysis of Variance Technique
+The prerequisite for this course is ECO 104, which is an introduction to **Descriptive Statistics** and **Probability Theory**. It is assumed that you have already successfully completed the course, if not please drop this course and take it later. 
+
+In this course, we will learn how to use statistical methods to make inferences about a population based on sample data. We will cover various topics including **estimation, hypothesis testing, regression analysis, time series analysis, analysis of variance techniques and some non-parametric testing**.
+
+Thanks 
+
 
 <br>
 <br>
 
 <center>
 
-![](image_file2.png){width=50%}
+
 </center>
 
 You will get the course outline in PDF soon.... 
