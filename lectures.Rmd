@@ -19,7 +19,7 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
 
 ## *Chapter 0 - ECO 104 Recap*
 
-- **Slides:** [Ch0 - ECO 104 Recap](slides/00_eco104_recap.pdf)
+- **Slides :** [Ch0 - ECO 104 Recap](slides/00_eco104_recap.pdf)
 
 - Key concepts are 
 
@@ -29,7 +29,7 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
   - Expectation and Variance
   - Some Important Distributions (Binomial and Normal, etc.)
   - **Please Note:** The slides may get updated later, so please check back frequently.
-  - last updated: format(Sys.Date(), "%B %d, %Y")
+  - last updated: **`r Sys.Date()`**
 
 ## *Chapter 1 - Statistical Estimation*
 
@@ -41,6 +41,7 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
   - Properties of Point Estimators
   - Interval Estimation
   - Confidence Intervals for Mean and Proportion
+  - last updated: **`r Sys.Date()`**
 
 
 
@@ -48,9 +49,3 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
 
 
 
-
-
-
-<div style="text-align: center; padding: 10px; margin-top: 40px; border-top: 1px solid #ccc; color: gray; font-size: 0.9em;">
-  © ECO 204 Summer 2025. All rights reserved. |Site Maintained by - Shaikh Tanvir Hossain and Habiba Afroz
-</div>

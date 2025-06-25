@@ -27,7 +27,7 @@ A quick heads-up: **PLEASE, and PLEASE again ... show up to every class.** This 
 
 We’re **Tanvir Hossain** (your instructor) and **Habiba Afroz** (the TA for this course) from the [Economics Department at East West University](https://fbe.ewubd.edu/economics-department). Reach out anytime to us via Discord DM, Google Classroom, or office hours—if you need help or just want to talk about Statistics. Thanks again, let’s have a great term together!
 
-You will get the course outline in PDF soon.... 
+You will get the course outline in PDF soon.... please check the webpage frequently for updates.
 
 <br>
 <center>
@@ -35,7 +35,3 @@ You will get the course outline in PDF soon....
 </center>
 
 
-<b>
-<div style="text-align: center; padding: 10px; margin-top: 40px; border-top: 1px solid #ccc; color: gray; font-size: 0.9em;">
-  © ECO 204 Summer 2025. All rights reserved. | Site Maintained by - Shaikh Tanvir Hossain and Habiba Afroz
-</div>

@@ -15,6 +15,8 @@ output:
   html_document:  
     self_contained: no  
     theme: cosmo
+    includes:
+      after_body: footer.html
     
     
     
