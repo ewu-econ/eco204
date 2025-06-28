@@ -1,37 +1,44 @@
-<!-- 1. FONT-AWESOME ICONS (load once, near <head>) -->
+<!-- Font-Awesome (load once in <head>) -->
 <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      integrity="sha512-fnY+…YOUR_HASH…" crossorigin="anonymous" referrerpolicy="no-referrer">
+      crossorigin="anonymous" referrerpolicy="no-referrer">
 
-<!-- 2. FANCY FOOTER -->
 <footer style="
-  --bg1:#fafbff;
-  --bg2:#f0f2ff;
-  --text:#1a1a1a;
-  --accent:#6366f1;           /* indigo-500 */
-  max-width:100%;
-  padding:1.25rem 0 1.75rem;
-  margin-top:2rem;
-  text-align:center;
-  font-size:1em;
+  --bg1:#fafbff; --bg2:#f0f2ff; --text:#1a1a1a; --accent:#6366f1;
+  max-width:100%; padding:1.25rem 0 1.75rem; margin-top:2rem;
+  text-align:center; font-size:1em;
   background:linear-gradient(135deg,var(--bg1),var(--bg2));
-  box-shadow:0 4px 16px rgba(0,0,0,.08);
-  border-radius:12px;
-  ">
-  <!-- thin divider -->
+  box-shadow:0 4px 16px rgba(0,0,0,.08); border-radius:12px;">
+  
+  <!-- divider -->
   <div style="width:240px;height:1px;background:var(--accent);margin:0 auto 1rem;"></div>
 
   <!-- main text -->
   <p style="margin:.5rem 0;color:var(--text);line-height:1.55;">
-    <i class="fa-solid fa-user-edit" aria-hidden="true"></i>&nbsp;
-    Site maintained by <strong>Shaikh&nbsp;Tanvir&nbsp;Hossain</strong> &amp; <strong>Habiba&nbsp;Afroz</strong>.<br>
+    <i class="fa-solid fa-user-pen" aria-hidden="true"></i>&nbsp;
+    Site maintained by
+    <a href="https://sthossain.github.io/" target="_blank" rel="noopener">
+      <strong>Shaikh&nbsp;Tanvir&nbsp;Hossain</strong>
+    </a>
+    &amp;
+    <a href="#" onclick="return false;">
+      <strong>Habiba&nbsp;Afroz</strong>
+    </a>.<br>
+
     <i class="fa-solid fa-circle-exclamation" aria-hidden="true"></i>&nbsp;
-    <strong>Info:</strong> – Not linked to the official weboage of EWU, created and shared solely for course contents.<br>
-    <i class="fa-brands fa-r-project" aria-hidden="true"></i>&nbsp;Built with <strong>R Markdown</strong>
-    &amp; hosted on <strong>GitHub Pages</strong>.
+    <strong>Important:</strong> This site is independent from the
+    <a href="https://www.ewubd.edu/" target="_blank" rel="noopener">
+      Official Website of EWU
+    </a> and is shared solely for course content.<br>
+
+    <i class="fa-brands fa-r-project" aria-hidden="true"></i>&nbsp;
+    Built with <strong>R&nbsp;Markdown</strong>
+    &nbsp;&amp;&nbsp;
+    <i class="fa-brands fa-github" aria-hidden="true"></i>&nbsp;
+    hosted on <strong>GitHub&nbsp;Pages</strong>.
   </p>
 
-  <!-- appreciation line -->
+  <!-- appreciation -->
   <p style="margin:.5rem 0;font-style:italic;color:var(--accent);">
     — big thanks to the R community for their awesome tools and resources!
   </p>
