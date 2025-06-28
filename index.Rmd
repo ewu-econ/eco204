@@ -12,6 +12,8 @@ output:
 
 ![](image_file.png){width=30%}
 ![](image_file2.png){width=35%}
+<br>
+[The left image credit: [ISLR book](https://www.statlearning.com/)]
 </center>
 
 <br>
@@ -31,7 +33,7 @@ You will get the course outline in PDF soon.... please check the webpage frequen
 
 <br>
 <center>
-![](image_file3.png){width=70%}
+![Cartoon Credit: [ygwstatistics](https://ygwstatistics.weebly.com/chapter-10)](image_file3.png){width=70%}
 </center>
 
 
