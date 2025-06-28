@@ -1,0 +1,19 @@
+html, body, #quarto-content, .main-container {
+  /* whichever wrapper exists will get 100 % height */
+  height: 100%;
+  margin: 0;
+}
+
+body, #quarto-content, .main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main, #quarto-content main, .main-container > *:not(footer) {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto !important; /* wins over theme defaults */
+}
