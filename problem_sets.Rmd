@@ -17,7 +17,7 @@ Pleas submit the problem set in **PDF** format within the **specified deadline**
 
 ## Problem Set 1
 
-- **Deadline**: 4th Jule, 6 PM, 2025
+- **Deadline**: 5th July, 10:00 PM, 2025
 - Question [PS1 Question](problem_sets/ps_1/PS_1.pdf), Data [PS1 Data](problem_sets/ps_1/data/Student_Lunch.xlsx)
 - Solution [PS1 Solution]()
 
