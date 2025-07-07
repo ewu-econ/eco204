@@ -1,0 +1,32 @@
+---
+title: "R Stuffs"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    self_contained: true
+    df_print: paged
+    mathjax: default
+---
+
+
+Using R in this  course is optional, but if you want to learn R, you can use this opportunity to learn this beautiful language. I will record some videos to help you learn R (you can find the links in the private group of Discord), and I will also provide some R codes to help you understand the concepts in this course.
+
+
+## Session 1
+
+- We covered the basics of Rstudio, Objects in R, Functions in R (Just intro), Working directory
+
+## Session 2
+
+- R Script, Again different objects in R, Solving confidence interval problems in R, Functions `runif()` and `rnorm()`
+
+## Session 3
+
+- Concept of Loop, and showing sampling distribution though simulations in R.
+
+
+<div style="height:10cm;"></div>
+
+

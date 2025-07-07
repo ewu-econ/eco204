@@ -19,7 +19,7 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
 
 ## *Chapter 0 - ECO 104 Recap*
 
-- **Slides :** [Ch0 - ECO 104 Recap](slides/00_eco104_recap.pdf)
+- **Slides :** [Ch0 - ECO 104 Recap](slides/00_eco104_recap.pdf), also [Probability Theory Chapter 104](slides/03_prob_theory_2.pdf)
 
 - Key concepts are 
 
@@ -41,6 +41,7 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
   - Properties of Point Estimators
   - Interval Estimation
   - Confidence Intervals for Mean and Proportion
+  - For proportion the details are coming from Bernoulli Random Variables, you can see some concepts in  [Probability Theory Chapter 104](slides/03_prob_theory_2.pdf)
   - last updated: **`r Sys.Date()`**
 
 
