@@ -45,6 +45,21 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
   - last updated: **`r Sys.Date()`**
 
 
+## *Chapter 2 - Hypothesis Testing*
+
+- **Slides:** [Ch2 - Hypothesis Testing](slides/02_testing.pdf)
+
+- Key concepts are 
+
+  - Null and Alternative Hypotheses
+  - Type I and Type II Errors
+  - Tests for Mean and Proportion (Under Normality (Z test), Without Normality (t test), and Large Sample (Z test))
+  - Critical Values and P-value Approach of Hypothesis Testing
+  - last updated: **`r Sys.Date()`**
+
+
+
+
 
 <div style="height:5cm;"></div>
 
