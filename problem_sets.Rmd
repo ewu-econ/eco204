@@ -23,6 +23,9 @@ Pleas submit the problem set in **PDF** format within the **specified deadline**
 
 ## Problem Set 2
 
+- **Deadline**: 5th August, 10:00 PM, 2025
+- Question [PS2 Question](problem_sets/ps_2/PS_2.pdf), Data [PS2 Data](problem_sets/ps_2/data/Student_Satisfaction.xlsx)
+
 
 
 <div style="height:10cm;"></div>
