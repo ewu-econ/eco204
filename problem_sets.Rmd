@@ -19,12 +19,15 @@ Pleas submit the problem set in **PDF** format within the **specified deadline**
 
 - **Deadline**: 5th July, 10:00 PM, 2025
 - Question [PS1 Question](problem_sets/ps_1/PS_1.pdf), Data [PS1 Data](problem_sets/ps_1/data/Student_Lunch.xlsx)
-- Solution [PS1 Solution]()
+- Solution [PS1 Solution (Excel File - Solved by Habiba)](problem_sets/ps_1/solutions/PS_1_soln.xlsx)
 
 ## Problem Set 2
 
 - **Deadline**: 16th July, 10:00 PM, 2025
 - Question [PS2 Question](problem_sets/ps_2/PS_2.pdf), Data [PS2 Data](problem_sets/ps_2/data_file/Student_Satisfaction.xlsx)
+- Solution 
+  - [PS1 Partial Solution (Excel File - Solved by Habiba)](problem_sets/ps_2/solutions/PS_2_soln.xlsx)
+  - [PS2 Partial PDF typed Solution](problem_sets/ps_2/solutions/PS_2_soln.pdf)
 
 
 
