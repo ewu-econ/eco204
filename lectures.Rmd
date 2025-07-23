@@ -31,9 +31,9 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
   - **Please Note:** The slides may get updated later, so please check back frequently.
   - last updated: **`r Sys.Date()`**
 
-## *Chapter 1 - Statistical Estimation*
+## *Chapter 1 - Estimation*
 
-- **Slides:**  [Ch1 - Statistical Estimation](slides/01_estimation.pdf)
+- **Slides:**  [Ch1 - Statistical Estimation](slides/Ch1/01_estimation.pdf)
 
 - Key concepts are 
 
@@ -45,9 +45,9 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
   - last updated: **`r Sys.Date()`**
 
 
-## *Chapter 2 - Hypothesis Testing*
+## *Chapter 2 - Testing*
 
-- **Slides:** [Ch2 - Hypothesis Testing](slides/02_testing.pdf)
+- **Slides:** [Ch2 - Hypothesis Testing](slides/Ch2/02_testing.pdf)
 
 - Key concepts are 
 
@@ -56,7 +56,27 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
   - Tests for Mean and Proportion (Under Normality (Z test), Without Normality (t test), and Large Sample (Z test))
   - Critical Values and P-value Approach of Hypothesis Testing
   - last updated: **`r Sys.Date()`**
+  
+  
+## *Chapter 3 - Regression*
 
+- **Slides:** [Ch3 - Regression](slides/Ch3/03_regression.pdf)
+
+- Data Sets are 
+  - [Television Data Set](slides/Ch3/datasets/Advertising.xlsx)
+  - [Student Pop and Sales](slides/Ch3/datasets/Fast_Food_Data_SLR.xlsx)
+
+- Key concepts are 
+  
+  - Recap of Joint Distribution of Two Random Variables, Covariance and Correlation, Scatterplot
+  - Marginal and Conditional Distributions
+  - Conditional Expectation and Variance, CEF function
+  - Simple Linear Regression
+  - Least Squares Estimation
+  - Hypothesis Testing in Regression
+  - Goodness of Fit and Coefficient of Determination
+  - Assumptions of the Classical Linear Regression Model
+  - last updated: **`r Sys.Date()`**
 
 
 
