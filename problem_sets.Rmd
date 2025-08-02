@@ -29,6 +29,9 @@ Pleas submit the problem set in **PDF** format within the **specified deadline**
   - [PS2 Partial Solution (Excel File - Solved by Habiba)](problem_sets/ps_2/solutions/PS_2_soln.xlsx)
   - [PS2 Partial PDF typed Solution](problem_sets/ps_2/solutions/PS_2_soln.pdf)
 
-
+## Problem Set 3
+- **Deadline**: 7th August, 10:00 PM, 2025
+- Question [PS3 Question](problem_sets/ps_3/PS_3.pdf), Data [PS3 Data](problem_sets/ps_3/data_file/data_msales_aprice.xlsx)
+- Solution 
 
 <div style="height:10cm;"></div>
