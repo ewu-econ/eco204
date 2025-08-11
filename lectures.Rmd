@@ -61,6 +61,7 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
 ## *Chapter 3 - Regression*
 
 - **Slides:** [Ch3 - Regression](slides/Ch3/03_regression.pdf)
+- **Slides:** [Ch3 - Regression MLR](slides/Ch3/04_regression_mlr_2023.pdf)
 
 - Data Sets are 
   - [Television Data Set](slides/Ch3/datasets/Advertising.xlsx)
