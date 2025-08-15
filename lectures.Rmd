@@ -60,7 +60,7 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
   
 ## *Chapter 3 - Simple Linear Regression*
 
-- **Slides:** [Ch3 - Simple Linear Regression](slides/Ch3/03_regression.pdf)
+- **Slides:** [Ch3 - Simple Linear Regression](slides/Ch3/03_regression_SLR.pdf)
 
 - Data Sets are 
   - [Television Data Set](slides/Ch3/datasets/Advertising.xlsx)
