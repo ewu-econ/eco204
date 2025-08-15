@@ -58,32 +58,47 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
   - last updated: **`r Sys.Date()`**
   
   
-## *Chapter 3 - Regression*
+## *Chapter 3 - Simple Linear Regression*
 
-- **Slides:** [Ch3 - Regression](slides/Ch3/03_regression.pdf)
-- **Slides:** [Ch3 - Regression MLR](slides/Ch3/04_regression_mlr_2023.pdf)
+- **Slides:** [Ch3 - Simple Linear Regression](slides/Ch3/03_regression.pdf)
 
 - Data Sets are 
   - [Television Data Set](slides/Ch3/datasets/Advertising.xlsx)
-  - [Student Pop and Sales](slides/Ch3/datasets/Fast_Food_Data_SLR.xlsx)
+  - [Restaurent Data](slides/Ch3/datasets/Fast_Food_Data_SLR.xlsx)
 
 - Key concepts are 
   
   - Recap of Joint Distribution of Two Random Variables, Covariance and Correlation, Scatterplot
   - Marginal and Conditional Distributions
   - Conditional Expectation and Variance, CEF function
-  - Simple Linear Regression
-  - Least Squares Estimation
+  - Simple Linear Regression Estimation (OLS estimators algebraic Details are covered in the last part)
+  - Assumptions of the Classical Linear Regression Model
   - Hypothesis Testing in Regression
   - Goodness of Fit and Coefficient of Determination
-  - Assumptions of the Classical Linear Regression Model
   - last updated: **`r Sys.Date()`**
 
 
+## *Chapter 4 - Multiple Linear Regression*
 
+- **Slides:** [Ch4 - Multiple Linear Regression](slides/Ch4/04_regression_mlr_2023.pdf)
 
-<div style="height:5cm;"></div>
+- Data Sets are 
+  - [Television Data Set](slides/Ch4/datasets/Advertising.xlsx)
+  - [Restaurant Data](slides/Ch4/datasets/Fast_Food_Data_MLR.xlsx)
+  
+- Key concepts are
 
+  - Idea of Multiple Linear Regression Model
+  - Least Squares Estimation in MLR (The Vector / Matrix Approach)
+  - Interpretation of Coefficients in MLR
+  - Goodness of Fit and Coefficient of Determination in MLR
+  - Assumptions of the Classical Linear Regression Model in MLR
+  - Hypothesis Testing in MLR (Individual Testing, Joint Testing, Restricted / Unrestricted Tests)
+  - Extensions
+    - Dummy Variables
+    - Interaction Terms
+    - Non-linear Transformations
 
+  - last updated: **`r Sys.Date()`**
 
 
