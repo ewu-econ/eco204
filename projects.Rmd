@@ -50,7 +50,7 @@ The datasets are taken from @wooldridge2016introductory
 
 - [inven.xlsx](project_work/all_data_sets/inven.xlsx), [inven_info.txt](project_work/all_data_sets/inven_info.txt)
 
-- [okun.xlsx](project_work/all_data_sets/okun.xlsx), [okun_info.txt](project_work/all_data_sets/okun_info.text)
+- [happiness.xlsx](project_work/all_data_sets/happiness.xlsx), [happiness_info.txt](project_work/all_data_sets/happiness_info.txt)
 
 - [prminwge](project_work/all_data_sets/prminwge.xlsx), [prminwge_info.txt](project_work/all_data_sets/prminwge_info.txt)
 
