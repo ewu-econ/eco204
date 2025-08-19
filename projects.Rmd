@@ -13,7 +13,22 @@
   linkcolor: blue
 ---
   
-Pick a dataset from the following list and do the project following the Project Details file given below. To know about the dataset you can also read the info file given with the dataset. You can use **Excel** or **R** to complete the project. If you use R and LaTeX you will get 3 additional points.
+
+Choose one dataset from the list below. For the dataset you select, complete all tasks written in the [Project Details](project_work/Project_Details.pdf) document. You have following two options,
+
+  - **Doing Work using MS Excel + MS Word:** In this case you perform the regression using MS Excel, write the report in MS Word, and submit the Excel file and a PDF (produced from the Word, I will not accept the MS Word file) file.
+  - Or, 
+  - **Doing the work using R and LaTeX:** In this case you perform the regression using R, write the report in R Markdown, and submit the knitted HTML file (or PDF file) and the R Markdown file.
+
+If you submit both a fully reproducible R Markdown report and a LaTeX write-up, you will receive a +3 bonus points on the final exam.
+
+Datasets are allocated on a **first-come, first-served** basis. To reserve a dataset, email STH or Habiba Afroz or Write in Discord with your group members' name and the chosen dataset — **once a dataset is reserved for a group it cannot be used by others**. Groups may have **at most two members**. So please send me an email or write in Discord with the following information as soon as you can.
+
+- Group Members' Names
+- Dataset Name (e.g., earns, approval, etc.)
+
+
+If you have questions about a dataset or need an exception, contact the Me or Habiba Afroz via email or Discord.  
 
 ## **Project Details**
 
@@ -57,5 +72,5 @@ Formatting your project properly is very important, please see the instructional
 
 <div id="refs"></div>
 
-<div style="height:10cm;"></div>
+<div style="height:2cm;"></div>
 
