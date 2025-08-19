@@ -13,7 +13,7 @@
   linkcolor: blue
 ---
   
-Pick a dataset from the following list and do the project following the Project Detail file, 
+Pick a dataset from the following list and do the project following the Project Details file given below. To know about the dataset you can also read the info file given with the dataset. You can use **Excel** or **R** to complete the project. If you use R and LaTeX you will get 3 additional points.
 
 ## **Project Details**
 
@@ -44,7 +44,6 @@ The datasets are taken from @wooldridge2016introductory
 - [traffic1.xlsx](project_work/all_data_sets/traffic1.xlsx), [traffic1_info.txt](project_work/all_data_sets/traffic1_info.txt)
 
 
-You can use **Excel** or **R** to complete the tasks. If you use R and LaTeX you will get 3 additional points.
 
 
 ## **Formatting**
