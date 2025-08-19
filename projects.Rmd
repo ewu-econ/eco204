@@ -1,0 +1,62 @@
+---
+  title: "Project Work"
+  output: 
+    html_document:
+      toc: true
+      toc_depth: 3
+      toc_float: true
+      self_contained: true
+      df_print: paged
+      mathjax: default
+  bibliography: eco204_books.bib  
+  link-citations: yes
+  linkcolor: blue
+---
+  
+Pick a dataset from the following list and do the project following the Project Detail file, 
+
+## **Project Details**
+
+Please see [Project Details](project_work/Project_Details.pdf) for the details of the project.
+
+## **Datasets**
+
+The datasets are taken from @wooldridge2016introductory
+
+- [approval.xlsx](project_work/all_data_sets/approval.xlsx), [approval_info.txt](project_work/all_data_sets/approval_info.txt)
+
+- [athlet2.xlsx](project_work/all_data_sets/athlet2.xlsx), [athlet2_info.txt](project_work/all_data_sets/athlet2_info.txt)
+
+- [earns.xlsx](project_work/all_data_sets/earns.xlsx), [earns_info.txt](project_work/all_data_sets/earns_info.txt)
+
+- [fertil3.xlsx](project_work/all_data_sets/fertil3.xlsx), [info file](project_work/all_data_sets/fertil3_info.txt)
+
+- [intdef.xlsx](project_work/all_data_sets/intdef.xlsx), [intdef_info.txt](project_work/all_data_sets/intdef_info.txt)
+
+- [inven.xlsx](project_work/all_data_sets/inven.xlsx), [inven_info.txt](project_work/all_data_sets/inven_info.txt)
+
+- [okun.xlsx](project_work/all_data_sets/okun.xlsx), [okun_info.txt](project_work/all_data_sets/okun_info.text)
+
+- [prminwge](project_work/all_data_sets/prminwge.xlsx), [prminwge_info.txt](project_work/all_data_sets/prminwge_info.txt)
+
+- [rdchem.xlsx](project_work/all_data_sets/rdchem.xlsx), [rdchem_info.txt](project_work/all_data_sets/rdchem_info.txt)
+
+- [traffic1.xlsx](project_work/all_data_sets/traffic1.xlsx), [traffic1_info.txt](project_work/all_data_sets/traffic1_info.txt)
+
+
+You can use **Excel** or **R** to complete the tasks. If you use R and LaTeX you will get 3 additional points.
+
+
+## **Formatting**
+
+Formatting your project properly is very important, please see the instructional video on how to format your project properly.
+
+
+<div style="height:2cm;"></div>
+
+# **References**
+
+<div id="refs"></div>
+
+<div style="height:10cm;"></div>
+

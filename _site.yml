@@ -9,6 +9,8 @@ navbar:
       href: lectures.html
     - text: "Problem Sets"
       href: problem_sets.html
+    - text: "Project Work"
+      href: projects.html
     - text: "Additional Materials"
       href: add_materials.html
     - text: "R Stuffs"

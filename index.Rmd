@@ -21,7 +21,7 @@ output:
 
 Salam everyone! 👋 Welcome to the ECO 204 (Section 7) course page for **Summer 2025**. We’re thrilled to have you on board.
 
-In this class you will do a somewhat deep dive into **Statistical Inference** — the part of statistics that lets us say smart things about a whole population **just by studying a sample**. Remember, there are two big branches of Statistics: **Descriptive Statistics** (summarizing what you see in a data) and **Inferential Statistics** (drawing broader conclusions from the data). We’re now in the second one. By now all of you should already have ECO 104 under your arsenal (whcih covers essentially Descriptive Stats + Probability). If you haven’t taken 104 yet, please take it first and come back here later... sorry!
+In this class you will do a somewhat deep dive into **Statistical Inference** — the part of statistics that lets us say smart things about a whole population **just by studying a sample**. Remember, there are two big branches of Statistics: **Descriptive Statistics** (summarizing what you see in a data) and **Inferential Statistics** (drawing broader conclusions from the data). We’re now in the second one. By now all of you should already have ECO 104 under your arsenal (which covers essentially Descriptive Stats + Probability). If you haven’t taken 104 yet, please take it first and come back here later... sorry!
 
 Over the next few weeks we’ll explore **estimation, hypothesis testing, regression, time-series analysis, ANOVA, and some non-parametric tests**. It might sound like a lot, but once you get the ideas you’ll see how powerful—and fun—these topics are.
 

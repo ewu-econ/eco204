@@ -13,7 +13,7 @@
   linkcolor: blue
 ---
   
-Pleas submit the problem set in **PDF** format within the **specified deadline** in google classroom. If you use Excel or R to solve the problem set, please submit the **Excel file** or **R Script** file as well.
+Please submit the problem set in **PDF** format within the **specified deadline** in google classroom. If you use Excel or R to solve the problem set, please submit the **Excel file** or **R Script** file as well.
 
 ## Problem Set 1
 
