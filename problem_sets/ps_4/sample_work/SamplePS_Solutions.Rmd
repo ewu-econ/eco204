@@ -1,0 +1,206 @@
+---
+title: "Sample MLR Problem With Soln"
+subtitle: "ECO204@EWU, Summer 2025"
+author: "Faculty : STH, TA: Habiba Afroz"
+date: "2025-08-26"
+output:
+  html_document:
+    theme: journal
+    toc: yes
+    toc_float:
+      collapsed: true
+  pdf_document: 
+    toc: true
+    toc_depth: 2
+--- 
+
+# Package Installations
+
+Install Following packages with the command `install.packages("package_name")` if not already installed, and then load the package using `library(package_name)`.
+
+```{r setup}
+library(readxl)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(broom)
+library(stargazer)
+options(scipen = 100) # to avoid scientific notation
+```
+
+# Problem Setup
+
+The owner of Showtime Movie Theaters, Inc., would like to predict weekly gross revenue as a function of advertising expenditures. We have historical data for a sample of eight weeks with the following variables:
+
+- `revenue`: gross revenue ($1000)
+- `tv`: television advertising ($1000)
+- `newspaper`: newspaper advertising ($1000)
+- `magazines`: magazine advertising ($1000)
+- `leaflets`: leaflets advertising ($1000)
+- `age-category`: age category (1 = teen, 2 = middle, 3 = aged)
+
+```{r load-data}
+# Load the new dataset I gave the full path, you can set the directory first and then just the name 
+# of the file is enough ...
+
+showtime_data <- read_excel("/home/tanvir/Documents/ownCloud/Git_Repos/EWU_repos/6_Summer_2025/ECO204/eco204_summer_25_private/problem_sets/ps_4/sample_problem_set_solution/Showtime_New.xlsx")
+
+# Display the showtime_data
+kable(showtime_data, caption = "Showtime Movie Theater Data Set")
+
+# Convert age-category to factor
+showtime_data$age_category_factor <- factor(showtime_data$age_category, 
+                                   levels = c(1, 2, 3), 
+                                   labels = c("Teen", "Middle", "Aged"))
+
+
+```
+
+
+
+# Multiple Linear Regression Model Estimation
+
+Develop an estimated regression equation to predict weekly gross revenue with all other variables (except age-category) as the independent variables.
+
+```{r multiple-regression}
+# Multiple linear regression excluding age-category
+model_full<- lm(revenue ~ tv + newspaper + magazines + leaflets, data = showtime_data)
+summary(model_full)
+
+```
+
+
+A slightly better output with the stargazer package
+
+```{r}
+# you can play around with different options
+stargazer(model_full, type = "text",  ci = TRUE, ci.level = 0.95)
+```
+
+# ANOVA Table and Sum of Squares
+
+Write the ANOVA table and calculate SST, SSR, SSE, MSR, and MSE. Here to get a proper ANOVA table we need to run a NUll model and Full model and use the general restricted-unrestricted way to get the table
+
+```{r anova-table}
+# fit null model
+model_null <- lm(revenue ~ 1, data = showtime_data)  # Null model with only intercept
+
+# we already have the complete model
+
+# anova function will compare between two models
+anova(model_null, model_full)
+
+
+```
+
+
+
+# Partial F-test (Restricted F test) for Magazines and Leaflets
+
+Test whether both magazine and leaflets advertising should be dropped.
+
+```{r partial-f-test}
+# Reduced model without magazines and leaflets
+restricted_model <- lm(revenue ~ tv + newspaper, data = showtime_data)
+
+# Partial F-test
+anova_comparison <- anova(restricted_model, model_full)
+print(anova_comparison)
+
+```
+
+# Prediction
+
+**Question:** Predict gross revenue when TV = $3500, Newspaper = $2300, Magazines = $1000, Leaflets = $500.
+
+```{r prediction}
+# Create new data for prediction
+new_data <- data.frame(tv = 3.5, newspaper = 2.3, magazines = 1.0, leaflets = 0.5)
+
+# Make prediction
+predicted_revenue <- predict(model_full, new_data)
+
+```
+
+
+
+
+# Dummy Variable Regression Function
+
+What is the population regression function with age-category dummy variables?
+
+**Answer:**
+$$Y_i = \beta_0 + \beta_1 D_{1i} + \beta_2 D_{2i} + \epsilon_i$$
+
+Where:
+- $D_{1i}$ = 1 if $i^{th}$ restaurant has majority Adults, 0 otherwise
+- $D_{2i}$ = 1 if $i^{th}$ restaurant has majority Aged, 0 otherwise
+- Teen is the reference category is the reference category
+
+
+#  Dummy Variable Regression Estimation
+
+In R we don't need to create dummy variables, we can directly run the regression using the factor variable. Run the regression and interpret the coefficients. Note that it automatically sets the first category (Teen) as the reference category. However you need to be careful what you want as a reference
+
+```{r dummy-regression}
+
+dummy_model <- lm(revenue ~ age_category_factor, data = showtime_data)
+summary(dummy_model)
+
+# if you want to specify the base category, you can relvel the factor and run the regression again
+
+# showtime_data$age_category_factor <- relevel(showtime_data$age_category_factor, ref = "Middle")
+# dummy_model <- lm(revenue ~ age_category_factor, data = showtime_data)
+```
+
+
+Finally using the `group_by` and `summarise` functions from dplyr to show that the regression results are the same as the group means
+
+
+# Show that we don't need regression - just group means
+
+```{r}
+group_means <- showtime_data %>%
+  group_by(age_category_factor) %>%
+  summarise(mean_revenue = mean(revenue))
+
+group_means
+```
+
+
+
+
+#  Interaction Model
+
+Conduct multiple linear regression with newspaper advertising, age-category, and their interaction terms.
+
+```{r interaction-model}
+#Interaction model with newspaper and age category
+interaction_model <- lm(revenue ~ newspaper*age_category_factor, data = showtime_data)
+summary(interaction_model)
+
+```
+
+# Optional
+
+```{r summary-plot}
+#Create a visualization of the interaction effect
+ggplot(showtime_data, aes(x = newspaper, y = revenue, color = age_category_factor)) +
+  geom_point(size = 3) +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(title = "Interaction between Newspaper Advertising and Age Category",
+       x = "Newspaper Advertising ($1000)",
+       y = "Revenue ($1000)",
+       color = "Age Category") +
+  theme_minimal()
+```
+
+The analysis reveals that:
+
+1. **Multiple regression model** shows varying significance levels for different advertising types
+2. **Overall model** is significant, indicating advertising expenditures do predict revenue  
+3. **Individual variables** have different levels of significance
+4. **Interaction analysis** suggests newspaper advertising effectiveness varies by age group
+5. **Different slopes** for each age category indicate targeted advertising strategies may be beneficial
+
+This comprehensive analysis provides insights for optimizing advertising spend across different media and age demographics for Showtime Movie Theaters.

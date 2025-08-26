@@ -35,4 +35,17 @@ Please submit the problem set in **PDF** format within the **specified deadline*
 -  Additional Question Included [PS3 - Additional Question](problem_sets/ps_3/PS_3_additional.pdf) - Please solve additional questions before Mid - 2
 - Solution 
 
+## Problem Set 4
+- **Deadline**: 1st September, 10:00 PM, 2025
+- Question [PS4 Question](problem_sets/ps_4/PS_4.pdf), Data [PS4 Data](problem_sets/ps_4/data/CoffeeChain.xlsx)
+-  *Sample Works* - Please check the sample work for better understanding of the problem set requirements
+   - [Data File](problem_sets/ps_4/sample_work/Showtime_New.xlsx)
+   - [Sample Solution Html File](problem_sets/ps_4/sample_work/SamplePS_Solutions.html)
+   - [Sample Solution PDF File](problem_sets/ps_4/sample_work/SamplePS_Solutions.pdf)
+   - [Sample Solution R Script File](problem_sets/ps_4/sample_work/SamplePS_Solutions.R)
+   - [Sample Solution R Markdown File](problem_sets/ps_4/sample_work/SamplePS_Solutions.Rmd)
+  
+- Solution 
+
+
 <div style="height:10cm;"></div>
