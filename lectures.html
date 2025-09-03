@@ -62,6 +62,29 @@ if (window.hljs) {
 
 
 
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 
 
@@ -357,8 +380,8 @@ div.tocify {
 
 <p>Here are the slides for the lectures. The slides are in pdf format.
 You can download them and use them offline.</p>
-<div id="chapter-0---eco-104-recap" class="section level2">
-<h2><em>Chapter 0 - ECO 104 Recap</em></h2>
+<div id="chapter-0---eco-104-recap" class="section level1">
+<h1>Chapter 0 - ECO 104 Recap</h1>
 <ul>
 <li><p><strong>Slides :</strong> <a
 href="slides/00_eco104_recap.pdf">Ch0 - ECO 104 Recap</a>, also <a
@@ -373,12 +396,12 @@ href="slides/03_prob_theory_2.pdf">Probability Theory Chapter
 <li>Some Important Distributions (Binomial and Normal, etc.)</li>
 <li><strong>Please Note:</strong> The slides may get updated later, so
 please check back frequently.</li>
-<li>last updated: <strong>2025-08-26</strong></li>
+<li>last updated: <strong>2025-09-03</strong></li>
 </ul></li>
 </ul>
 </div>
-<div id="chapter-1---estimation" class="section level2">
-<h2><em>Chapter 1 - Estimation</em></h2>
+<div id="chapter-1---estimation" class="section level1">
+<h1>Chapter 1 - Estimation</h1>
 <ul>
 <li><p><strong>Slides:</strong> <a
 href="slides/Ch1/01_estimation.pdf">Ch1 - Statistical
@@ -393,12 +416,12 @@ Estimation</a></p></li>
 Variables, you can see some concepts in <a
 href="slides/03_prob_theory_2.pdf">Probability Theory Chapter
 104</a></li>
-<li>last updated: <strong>2025-08-26</strong></li>
+<li>last updated: <strong>2025-09-03</strong></li>
 </ul></li>
 </ul>
 </div>
-<div id="chapter-2---testing" class="section level2">
-<h2><em>Chapter 2 - Testing</em></h2>
+<div id="chapter-2---testing" class="section level1">
+<h1>Chapter 2 - Testing</h1>
 <ul>
 <li><p><strong>Slides:</strong> <a href="slides/Ch2/02_testing.pdf">Ch2
 - Hypothesis Testing</a></p></li>
@@ -409,12 +432,12 @@ href="slides/03_prob_theory_2.pdf">Probability Theory Chapter
 <li>Tests for Mean and Proportion (Under Normality (Z test), Without
 Normality (t test), and Large Sample (Z test))</li>
 <li>Critical Values and P-value Approach of Hypothesis Testing</li>
-<li>last updated: <strong>2025-08-26</strong></li>
+<li>last updated: <strong>2025-09-03</strong></li>
 </ul></li>
 </ul>
 </div>
-<div id="chapter-3---simple-linear-regression" class="section level2">
-<h2><em>Chapter 3 - Simple Linear Regression</em></h2>
+<div id="chapter-3---simple-linear-regression" class="section level1">
+<h1>Chapter 3 - Simple Linear Regression</h1>
 <ul>
 <li><p><strong>Slides:</strong> <a
 href="slides/Ch3/03_regression_slr.pdf">Ch3 - Simple Linear
@@ -437,12 +460,12 @@ Details are covered in the last part)</li>
 <li>Assumptions of the Classical Linear Regression Model</li>
 <li>Hypothesis Testing in Regression</li>
 <li>Goodness of Fit and Coefficient of Determination</li>
-<li>last updated: <strong>2025-08-26</strong></li>
+<li>last updated: <strong>2025-09-03</strong></li>
 </ul></li>
 </ul>
 </div>
-<div id="chapter-4---multiple-linear-regression" class="section level2">
-<h2><em>Chapter 4 - Multiple Linear Regression</em></h2>
+<div id="chapter-4---multiple-linear-regression" class="section level1">
+<h1>Chapter 4 - Multiple Linear Regression</h1>
 <ul>
 <li><p><strong>Slides:</strong> <a
 href="slides/Ch4/04_regression_mlr.pdf">Ch4 - Multiple Linear
@@ -469,9 +492,73 @@ Restricted / Unrestricted Tests)</li>
 <li>Interaction Terms</li>
 <li>Non-linear Transformations</li>
 </ul></li>
-<li>last updated: <strong>2025-08-26</strong></li>
+<li>last updated: <strong>2025-09-03</strong></li>
 </ul></li>
 </ul>
+</div>
+<div id="chapter-5---some-time-series-stuffs" class="section level1">
+<h1>Chapter 5 - Some Time Series Stuffs</h1>
+<ul>
+<li><p><strong>Slides:</strong> There are no slides for this course we
+essentially followed Chapter 17 of <span class="citation">Anderson et
+al. (<a href="#ref-anderson_statistics_2020">2020</a>)</span>.</p></li>
+<li><p><strong>Important:</strong> Time Series Analysis is one of the
+most important topics in Statistics and Econometrics. However, due to
+time constraints, we will only cover a few basic concepts…. and honestly
+this is nothing. We didn’t even talk about Autoregressive Models … (this
+is quite sad). But if you are interested in learning more about Time
+Series Analysis, you can check any introductory Econometrics
+textbook.</p></li>
+<li><p><strong>Some Excel Files From Previous Years</strong></p>
+<ul>
+<li><a
+href="slides/Ch5/Excel_Files/Ch5_TimeSeriesAnalysis_withExcel.xlsx">File
+1</a></li>
+<li><a href="slides/Ch5/Excel_Files/Ch5_TSA_withExcel-1_Fall2023">File
+2</a></li>
+<li><a href="slides/Ch5/Excel_Files/Ch5_TSA_withExcel-2_Fall2023">File
+3</a></li>
+</ul></li>
+<li><p><strong>Some R Files From Previous Years</strong></p>
+<ul>
+<li><a href="slides/Ch5/R%20_Files/ts_lab_R.zip">Zipped Folder For All
+Materials (Please Unzip)</a></li>
+<li><a href="slides/Ch5/R%20_Files/ts_lab.html">HTML File</a></li>
+</ul></li>
+<li><p>The data sets we used are from <span class="citation">Anderson et
+al. (<a href="#ref-anderson_statistics_2020">2020</a>)</span>. You can
+find them in the Google Drive folder.</p></li>
+</ul>
+</div>
+<div id="chapter-6---two-sample-testing-and-anova"
+class="section level1">
+<h1>Chapter 6 - Two Sample Testing and ANOVA</h1>
+<ul>
+<li><p><strong>Slides:</strong> <a href="slides/Ch6/06_anova.pdf">Ch6 -
+Two Sample Testing and ANOVA</a></p></li>
+<li><p>Key concepts are</p>
+<ul>
+<li>Two Sample Testing (Variance Known and Unknown (Equal and Unequal
+Variance Cases))</li>
+<li>Analysis of Variance or ANOVA (One Way and Two Way layouts)</li>
+<li>last updated: <strong>2025-09-03</strong></li>
+</ul></li>
+</ul>
+</div>
+<div id="references" class="section level1">
+<h1><strong>References</strong></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0">
+<div id="ref-anderson_statistics_2020" class="csl-entry">
+Anderson, David R., Dennis J. Sweeney, Thomas A. Williams, Jeffrey D.
+Camm, James J. Cochran, Michael J. Fry, and Jeffrey W. Ohlmann. 2020.
+<em>Statistics for Business &amp; Economics</em>. 14th ed. Boston, MA:
+Cengage.
+</div>
+</div>
+<div style="height:10cm;">
+
+</div>
 </div>
 
 <!-- Font-Awesome (load once in <head>) -->

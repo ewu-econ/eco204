@@ -17,7 +17,7 @@
 
 Here are the slides for the lectures. The slides are in pdf format. You can download them and use them offline.
 
-## *Chapter 0 - ECO 104 Recap*
+# Chapter 0 - ECO 104 Recap
 
 - **Slides :** [Ch0 - ECO 104 Recap](slides/00_eco104_recap.pdf), also [Probability Theory Chapter 104](slides/03_prob_theory_2.pdf)
 
@@ -31,7 +31,7 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
   - **Please Note:** The slides may get updated later, so please check back frequently.
   - last updated: **`r Sys.Date()`**
 
-## *Chapter 1 - Estimation*
+# Chapter 1 - Estimation
 
 - **Slides:**  [Ch1 - Statistical Estimation](slides/Ch1/01_estimation.pdf)
 
@@ -45,7 +45,7 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
   - last updated: **`r Sys.Date()`**
 
 
-## *Chapter 2 - Testing*
+# Chapter 2 - Testing
 
 - **Slides:** [Ch2 - Hypothesis Testing](slides/Ch2/02_testing.pdf)
 
@@ -58,7 +58,7 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
   - last updated: **`r Sys.Date()`**
   
   
-## *Chapter 3 - Simple Linear Regression*
+# Chapter 3 - Simple Linear Regression
 
 - **Slides:** [Ch3 - Simple Linear Regression](slides/Ch3/03_regression_slr.pdf)
 
@@ -78,7 +78,7 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
   - last updated: **`r Sys.Date()`**
 
 
-## *Chapter 4 - Multiple Linear Regression*
+# Chapter 4 - Multiple Linear Regression
 
 - **Slides:** [Ch4 - Multiple Linear Regression](slides/Ch4/04_regression_mlr.pdf)
 
@@ -101,4 +101,37 @@ Here are the slides for the lectures. The slides are in pdf format. You can down
 
   - last updated: **`r Sys.Date()`**
 
+
+# Chapter 5 - Some Time Series Stuffs
+
+- **Slides:** There are no slides for this course we essentially followed Chapter 17 of @anderson_statistics_2020. 
+
+- **Important:** Time Series Analysis is one of the most important topics in Statistics and Econometrics. However, due to time constraints, we will only cover a few basic concepts.... and honestly this is nothing. We didn't even talk about Autoregressive Models ... (this is quite sad). But if you are interested in learning more about Time Series Analysis, you can check any introductory Econometrics textbook.
+
+- **Some Excel Files From Previous Years**
+  - [File 1](slides/Ch5/Excel_Files/Ch5_TimeSeriesAnalysis_withExcel.xlsx)
+  - [File 2](slides/Ch5/Excel_Files/Ch5_TSA_withExcel-1_Fall2023)
+  - [File 3](slides/Ch5/Excel_Files/Ch5_TSA_withExcel-2_Fall2023)
+ 
+- **Some R Files From Previous Years**
+  - [Zipped Folder For All Materials (Please Unzip)](slides/Ch5/R _Files/ts_lab_R.zip)
+  - [HTML File](slides/Ch5/R _Files/ts_lab.html)
+
+- The data sets we used are from @anderson_statistics_2020. You can find them in the Google Drive folder.
+
+# Chapter 6 - Two Sample Testing and ANOVA
+
+- **Slides:** [Ch6 - Two Sample Testing and ANOVA](slides/Ch6/06_anova.pdf)
+
+- Key concepts are 
+
+  - Two Sample Testing (Variance Known and Unknown (Equal and Unequal Variance Cases))
+  - Analysis of Variance or ANOVA (One Way and Two Way layouts)
+  - last updated: **`r Sys.Date()`**
+
+# **References**
+
+<div id="refs"></div>
+
+<div style="height:10cm;"></div>
 
